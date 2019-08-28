@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+h2 {
+  font-size: 43px;
+  color: #333333;
+}
+p {
+  font-size: 28px;
+  color: #333333;
+  line-height: 28px;
+}
+a {
+  margin-top: 76px;
+  display: inline-block;
+  border: 1px solid #333333;
+  border-radius: 18px;
+  width: 139px;
+  height: 46px;
+  line-height: 46px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 24px;
+}
+a:nth-child(2) {
+  margin-left: 68px;
+}
+a:hover {
+  background-color: #333333;
+  color: #fff;
+}

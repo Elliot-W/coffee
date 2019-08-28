@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+}
+
+header .center {
+    width: 1156px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 导航 */
+
+nav {
+    width: 752px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav a {
+    flex: auto;
+    font-size: 18px;
+    color: #333333;
+    line-height: 80px;
+}
+
+nav a.active {
+    text-decoration: none;
+    border-bottom: 6px solid #866961;
+    color: #866961;
+}
+
+
+/* banner图 */
+
+.banner img {
+    width: 100%;
+}
+
+
+/* 团队介绍 */
+
+.team-introduction {
+    width: 996px;
+    height: 697px;
+    margin: 0 auto;
+}
+.team-introduction .title .multi-title {
+    width: 500px;
+    display: flex;
+}
+.team-introduction .title {
+    height: 70px;
+    border-bottom: 1px solid #d5d5d5;
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-introduction .title .multi-title .text {
+    margin-left: 36px;
+}
+.team-introduction .title .multi-title .text:nth-child(1) {
+    margin-left: 0px;
+}
+.team-introduction .title .text i {
+    color: #866961;
+    display: flex;
+}
+
+.team-introduction .title .text span {
+    color: #999999;
+    font-size: 12px;
+}
+.team-introduction .title .location i {
+    color: #999999;
+}
+
+.team-introduction .title .location a {
+    color: #333333;
+}
+
+.team-introduction .content {
+    padding-top: 24px;
+    display: flex;
+}
+
+.team-introduction .content img {
+    width: 431px;
+}
+
+.team-introduction .content article {
+    overflow: hidden;
+    margin-left: 25px;
+}
+
+.team-introduction .content article p {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 35px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 28px;
+}
+
+
+/* 底部 */
+
+footer {
+    height: 80px;
+    background-color: #866961;
+    margin-top: 37px;
+}
+
+footer div {
+    width: 1068px;
+    padding-right: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div span {
+    line-height: 80px;
+    color: #fefefe;
+}

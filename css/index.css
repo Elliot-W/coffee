@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p:hover {
+  text-decoration: none;  
+}
+header {
+  height: 80px;
+}
+header .center {
+  width: 1156px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+/* 导航 */
+nav {
+  width: 752px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+nav a {
+  flex: auto;
+  font-size: 18px;
+  color: #333333;
+  line-height: 80px;
+}
+nav a:hover {
+  text-decoration: none;
+  border-bottom: 6px solid #866961;
+  color: #866961;
+}
+/* 轮播图 */
+.slider img {
+  width: 100%;
+
+}
+/* 关于我们 */
+.about-us {
+  height: 792px;
+  /* background-color: brown; */
+}
+.about-us .img-border {
+  width: 400px;
+  height: 518px;
+  border: 2px solid #333333;
+  position: absolute;
+  top: 30px;
+  left: -20px;
+  z-index: -1;
+}
+.about-us .title {
+  height: 162px;
+  background-image: url(../imgs/page-title-aboutus.jpg);
+  background-size: 100%;
+}
+.about-us .content {
+  width: 1048px;
+  height: 630px;
+  margin: 0 auto;
+  /* background-color: red; */
+  display: flex;
+  position: relative;
+}
+.about-us .content img {
+  height: 530px;
+}
+.about-us .content article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+.about-us .content h3 {
+  margin-top: 16px;
+  font-size: 22px;
+  color: #3a3438;
+}
+.about-us .content i {
+  margin-top: 54px;
+  color: #3a3438;
+}
+.about-us .content p {
+  margin-top: 31px;
+  font-size: 18px;
+  text-indent: 2em;
+  color: #3a3438;
+}
+/* 广告 */
+.ad {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+/* 产品介绍 */
+.product {
+  height: 663px;
+}
+.product .title {
+  height: 162px;
+}
+.product .title img {
+  width: 100%;
+}
+.product .content {
+  width: 1114px;
+  height: 501px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.product .content figure {
+  width: 327px;
+  position: relative;
+}
+.product .content figure img {
+  height: 298px;
+}
+.product .content figure h3 {
+  font-size: 22px;
+  color: #666666;
+  margin-top: 17px;
+  margin-left: 116px;
+}
+.product .content figure .icon-hengxian- {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 156px;
+}
+.product .content figure p {
+  font-size: 14px;
+  color: #a9a9a9;
+  text-decoration: none;
+}
+figure div {
+  width: 327px;
+  height: 298px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #313335;
+  padding-top: 109px;
+  padding-left: 133px;
+  opacity: 0.5;
+  z-index: -1;
+}
+figure:hover div{
+  z-index: 2;
+}
+figure:hover p {
+  color: #333333 !important;
+}
+figure div .iconfont.icon-fangdajing {
+  font-size: 66px;
+  color: #fff;
+}
+/* 公司团队 */
+.team {
+  height: 783px;
+  background-image: url(../imgs/team-bg.png);
+}
+.team .title img {
+  width: 100%;
+}
+.team .content {
+  width: 1087px;
+  height: 508px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.team .content .pic-box {
+  width: 245px;
+}
+/* 联系我们 */
+.contact-us {
+  height: 545px;
+}
+.contact-us .title img {
+  width: 100%;
+}
+.contact-us .content{
+  width: 1068px;
+  height: 344px;
+  margin: 0 auto;
+  display: flex;
+}
+.contact-us .content .contact-info {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-us .content .contact-info .line i {
+  font-size: 36px;
+}
+.contact-us .content .contact-info .line h3 {
+  font-size: 18px;
+}
+.contact-us .content .contact-info .line .text span {
+  font-size: 14px;
+  color: #999999;
+}
+.contact-us .content .contact-info .line {
+  display: flex;
+}
+.contact-us .content .contact-info .text {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8px;
+}
+/* 底部 */
+footer {
+  height: 80px;
+  background-color: #866961;
+}
+footer div {
+  width: 1068px;
+  padding-right: 60px;  
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer div span {
+  line-height: 80px;
+  color: #fefefe;
+}
